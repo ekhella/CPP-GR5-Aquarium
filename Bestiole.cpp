@@ -15,21 +15,21 @@ const double      Bestiole::AFF_SIZE = 8.;
 const double      Bestiole::MAX_VITESSE = 10.;
 const double      Bestiole::LIMITE_VUE = 30.;
 
-const double     Bestiole::CHAMP_ANGULAIRE_MAX = 0.90;
-const double     Bestiole::CHAMP_ANGULAIRE_MIN = 0;
-const double     Bestiole::DISTANCE_YEUX_MAX = 450;
-const double     Bestiole::DISTANCE_YEUX_MIN = 0;
-const double     Bestiole::CAPACITE_DETECTION_YEUX_MAX = 1.;
-const double     Bestiole::CAPACITE_DETECTION_YEUX_MIN = 0.5;
-const double     Bestiole::PLAGE_OREILLES_MAX= 150.;
-const double     Bestiole::PLAGE_OREILLES_MIN= 0.;
-const double     Bestiole::CAPACITE_DETECTION_OREILLE_MAX = 1.;
-const double     Bestiole::CAPACITE_DETECTION_OREILLE_MIN = 0.5;
-const double     Bestiole::MULTIPLICATEUR_NAGEOIRE_MAX= 20.;
-const double     Bestiole::REDUCTEUR_CARAPACE_MAX= 20.;
-const double     Bestiole::REDUCTEUR_CARAPACE_MORT_MAX= 5.;
-const double     Bestiole::CAMOUFLAGE_MAX= 10.;
-const double     Bestiole::CAMOUFLAGE_MIN= 0.;
+const double     Bestiole::CHAMP_ANGULAIRE_MAX = 0.90; //Alpha_MAX
+const double     Bestiole::CHAMP_ANGULAIRE_MIN = 0; // Alpha_MIN
+const double     Bestiole::DISTANCE_YEUX_MAX = 450; // Delta_y_MAX
+const double     Bestiole::DISTANCE_YEUX_MIN = 0; // Delta_y_MIN
+const double     Bestiole::CAPACITE_DETECTION_YEUX_MAX = 1.; // Gamma_y_MAX
+const double     Bestiole::CAPACITE_DETECTION_YEUX_MIN = 0.5; // Gamma_y_MIN
+const double     Bestiole::PLAGE_OREILLES_MAX= 150.; //Delta_o_MAX
+const double     Bestiole::PLAGE_OREILLES_MIN= 0.; //Delta_o_MIN
+const double     Bestiole::CAPACITE_DETECTION_OREILLE_MAX = 1.; // Gamma_o_MAX
+const double     Bestiole::CAPACITE_DETECTION_OREILLE_MIN = 0.5; // Gamma_o_MIN
+const double     Bestiole::MULTIPLICATEUR_NAGEOIRE_MAX= 20.; // Nu_MAX
+const double     Bestiole::REDUCTEUR_CARAPACE_MAX= 20.; // Eta_MAX
+const double     Bestiole::REDUCTEUR_CARAPACE_MORT_MAX= 5.; // Omega_MAX
+const double     Bestiole::CAMOUFLAGE_MAX= 10.; //Psi_MAX
+const double     Bestiole::CAMOUFLAGE_MIN= 0.; //Psi_MIN
 
 
 int               Bestiole::next = 0;
